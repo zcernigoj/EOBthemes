@@ -1,6 +1,6 @@
 [
   {
-    "name": "Proba-1",
+    "name": "Proba-V",
     "content": [
       {
         "name": "Proba-V",
@@ -10,30 +10,17 @@
       }
     ]
   },
-  [
-    {
-      "name": "Proba-2",
-      "content": [
-        {
-          "name": "Proba-V",
-          "service": "WMS",
-          "url": "https://proba-v-mep.esa.int/applications/geo-viewer/app/geoserver/ows",
-          "layersExclude": "/_1KM$/"
-        }
-      ]
-    }
-  ],
-  [
-    {
-      "name": "Proba-3",
-      "content": [
-        {
-          "name": "Proba-V",
-          "service": "WMS",
-          "url": "https://proba-v-mep.esa.int/applications/geo-viewer/app/geoserver/ows",
-          "layersExclude": "/_1KM$/"
-        }
-      ]
-    }
-  ]
+  {
+    "name": "GIBS",
+    "content": [
+      {
+        "name": "GIBS",
+        "service": "WMTS",
+        "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/wmts.cgi",
+        "layersInclude": [
+          "/^ASTER_GDEM/"
+        ]
+      }
+    ]
+  }
 ]
