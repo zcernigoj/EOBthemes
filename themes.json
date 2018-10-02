@@ -11,10 +11,10 @@
     ]
   },
   {
-    "name": "GIBS",
+    "name": "GIBS test",
     "content": [
       {
-        "name": "GIBS",
+        "name": "GIBS test",
         "service": "WMTS",
         "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/wmts.cgi",
         "layersInclude": [
