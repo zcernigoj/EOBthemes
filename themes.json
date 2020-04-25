@@ -1,45 +1,44 @@
 [
   {
-	"name": "Proba-V",
-	"content": [
-	  {
-		"name": "Proba-V",
-		"service": "WMS",
-		"url": "https://proba-v-mep.esa.int/applications/geo-viewer/app/geoserver/ows",
-		"layersExclude": "/_1KM$/"
-	  }
-	]
+    "name": "Proba-V",
+    "content": [
+      {
+        "name": "Proba-V",
+        "service": "WMS",
+        "url": "https://proba-v-mep.esa.int/applications/geo-viewer/app/geoserver/ows",
+        "layersExclude": "/_1KM$/"
+      }
+    ]
   },
   {
-	"name": "GIBS",
-	"content": [
-	  {
-		"name": "GIBS WMTS",
-		"service": "WMTS",
-		"url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/wmts.cgi",
-		"layersInclude": [
-		  "/^ASTER_GDEM/"
-		]
-	  },
-	  {
-		"name": "GIBS WMS",
-		"service": "WMS",
-		"url": "https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi",
-		"layersInclude": [
-		  "/^ASTER_GDEM/"
-		]
-	  }
-	]
+    "name": "GIBS",
+    "content": [
+      {
+        "name": "GIBS WMTS",
+        "service": "WMTS",
+        "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/wmts.cgi",
+        "layersInclude": [
+          "/^ASTER_GDEM/"
+        ]
+      },
+      {
+        "name": "GIBS WMS",
+        "service": "WMS",
+        "url": "https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi",
+        "layersInclude": [
+          "/^ASTER_GDEM/"
+        ]
+      }
+    ]
   },
   {
-	"name": "Historic maps",
-	"content": [
-	  {
-		"name": "",
-		"service": "WMS",
-		"url": "http://www.chartae-antiquae.cz/WMS/StredEvropa",
-	  }
-	]
+    "name": "Historic maps",
+    "content": [
+      {
+        "name": "",
+        "service": "WMS",
+        "url": "http://www.chartae-antiquae.cz/WMS/StredEvropa",
+      }
+    ]
   },
 ]
- 
