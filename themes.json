@@ -34,11 +34,6 @@
   {
     "name": "Historic maps",
     "content": [
-      {
-        "name": "",
-        "service": "WMS",
-        "url": "http://www.chartae-antiquae.cz/WMS/StredEvropa",
-      }
     ]
-  },
+  }
 ]
