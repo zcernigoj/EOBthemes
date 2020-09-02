@@ -35,5 +35,25 @@
     "name": "Historic maps",
     "content": [
     ]
+  },
+  {
+    "name": "LIDAR",
+    "content": [
+      {
+        "name": "LIDAR_Allegheny",
+        "service": "WMS",
+        "url": "https://imagery.pasda.psu.edu/arcgis/services/pasda/AlleghenyCountyLidar2017/MapServer/WMSServer"
+      },
+      {
+        "name": "LIDAR_Spain",
+        "service": "WMS",
+        "url": "https://wms-mapa-lidar.idee.es/lidar"
+      },
+      {
+        "name": "LIDAR_Switzerland",
+        "service": "WMS",
+        "url": "https://wms.zh.ch/OGDLidarZH"
+      }
+    ]
   }
 ]
